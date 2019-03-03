@@ -1,0 +1,180 @@
+/* CSS Document */
+
+/* CSSリセット */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
+strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,
+figure,footer,header,hgroup,menu,nav,section,summary,time,mark,
+audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;
+vertical-align:baseline;background:transparent;font-weight:normal;}
+body{line-height:1}article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block}
+ul{list-style:none}blockquote,q{quotes:none}blockquote:before,
+blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;
+font-size:100%;vertical-align:baseline;background:transparent}
+del{text-decoration:line-through}abbr[title],dfn[title]
+{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
+margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+@keyframes Float_rl {
+  0% {
+	opacity: 0;
+	transform: translateX(50px);
+  }
+  100% {
+	opacity: 1;
+	transform: translateX(0);
+  }
+}
+
+@keyframes Float_du {
+  0% {
+	opacity: 0;
+	transform: translateY(50px);
+  }
+  100% {
+	opacity: 1;
+	transform: translateY(0);
+  }
+}
+
+@keyframes Float_ud {
+  0% {
+	opacity: 0;
+	transform: translateY(-50px);
+  }
+  100% {
+	opacity: 1;
+	transform: translateY(0);
+  }
+}
+
+body{
+	background: #000;
+	color:#FFC600;
+	}
+
+#wrapper{
+width: 80%;
+margin: 0 auto;
+}
+
+#logo{
+	position: static;
+	top: 185px;
+	margin: 24px 0;
+	width:100%;
+	text-align:center;
+}
+
+#title{
+	position: static;
+	top: 185px;
+	margin: 24px 0;
+}
+
+#title h1{
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	text-align: center; 
+	font-size: 30px;
+	color: #CDCC32;
+	margin: 24px 0;
+}
+
+#title h2{
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	text-align: center; 
+	font-size: 24px;
+	color: #CDCC32;
+	margin: 24px 0;
+}
+
+#title2{
+	position: static;
+	top: 200px;
+	margin: 24px 0;
+}
+
+#title2 h2{
+	font-family: 'Yu Gothic Light', sans-serif;
+	text-align: center;
+	color:#486D52;
+	font-size: 30px;
+	margin: 24px 0;
+	animation-duration: 2s;
+	animation-name: Float_du;
+}
+
+#title2 h3{
+	font-family: 'Yu Gothic Light', sans-serif;
+	text-align: center; 
+	font-size:15px;
+	margin: 24px 0;
+	animation-duration: 2.5s;
+	animation-name: Float_du;
+}
+
+#navi{
+	position: static;
+	top: 250px;
+	wide:50px;
+	margin: 24px 0;
+}
+
+#navi h2{
+	font-family: 'Yu Gothic Light', sans-serif;
+	text-align: center;
+	color:#F60;
+	font-size: 30px;
+	margin: 24px 0;
+	animation-duration: 3s;
+	animation-name: Float_du;
+}
+
+#navi h3{
+	font-family: 'Yu Gothic Light', sans-serif;
+	text-align: center;
+	color:#F60;
+	font-size: 20px;
+	margin: 24px 0;
+	animation-duration: 3.5s;
+	animation-name: Float_du;
+}
+
+#navi h4{
+	font-family: 'Yu Gothic Light', sans-serif;
+	text-align: center;
+	color:#F60;
+	font-size: 15px;
+	margin: 24px 0;
+	animation-duration: 3.5s;
+	animation-name: Float_du;
+}
+
+
+
+a{
+	color: #00E3FF;
+	text-decoration:none;
+padding-bottom:1px;
+	}
+
+a:hover{
+	color:#FD6A6A;
+	transition: color 0.5s;
+	}
+
+#fotter{
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	font-size: 12px;
+	margin: 24px 0;
+}
+
+#fotter h3{
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	text-align: center;
+	font-size: 12px;
+}
