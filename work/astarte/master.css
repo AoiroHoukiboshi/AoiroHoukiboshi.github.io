@@ -53,13 +53,20 @@ margin:1em 0;padding:0}input,select{vertical-align:middle}
 }
 
 body{
-	background: #000;
+	background:#000;
 	color:#FFC600;
+	background-image: url("./astarte1_bg.png");
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
 	}
+
+
 
 #wrapper{
 width: 80%;
-margin: 0 auto;
+margin: auto;
+	background-color:rgba(0,0,0,0.5);
 }
 
 #logo{
@@ -120,28 +127,48 @@ margin: 0 auto;
 #navi{
 	position: static;
 	top: 250px;
-	wide:50px;
-	margin: 24px 0;
+	margin-left:3%; 
+}
+
+#xfd_1{
+	position: static;
+	top: 250px;
+	margin:3%;
+	width:560;
+}
+
+#xfd_2{
+	position: static;
+	top: 250px;
+	margin:3%;
+	width:560;
+}
+
+
+#xfd_2{
+	position: static;
+	top: 250px;
+	margin-left:3%;
+	width:560;
 }
 
 #navi h2{
-	font-family: 'Yu Gothic Light', sans-serif;
-	text-align: center;
-	color:#F60;
+	font-family: trajan-pro-3, serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: left;
+	color:#FFDD00;
 	font-size: 30px;
 	margin: 24px 0;
-	animation-duration: 3s;
-	animation-name: Float_du;
+	background:rgba(0,0,0,0.5);
 }
 
 #navi h3{
 	font-family: 'Yu Gothic Light', sans-serif;
-	text-align: center;
-	color:#F60;
+	text-align: left;
+	color:#FFFFFF;
 	font-size: 20px;
 	margin: 24px 0;
-	animation-duration: 3.5s;
-	animation-name: Float_du;
 }
 
 #navi h4{
@@ -157,13 +184,13 @@ margin: 0 auto;
 
 
 a{
-	color: #00E3FF;
+	color: #FF5E00;
 	text-decoration:none;
 padding-bottom:1px;
 	}
 
 a:hover{
-	color:#FD6A6A;
+	color:#00BBFF;
 	transition: color 0.5s;
 	}
 
@@ -171,10 +198,45 @@ a:hover{
 	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	font-size: 12px;
 	margin: 24px 0;
+		background-color:rgba(0,0,0,0.5);
 }
 
 #fotter h3{
 	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	text-align: center;
 	font-size: 12px;
+	color:#FFFFFF;
+}
+
+#tool{
+	position: fixed;
+	width:45px;
+	height:35px;
+	right:0;
+	bottom:0;
+	background:#000;
+	animation-duration: 0.5s;
+	animation-name: Float_du;
+}
+
+#tool_tip{
+	position: fixed;
+	width:45px;
+	height:35px;
+	right:0;
+	bottom:0;
+	background:#000;
+	animation-duration: 0.5s;
+	animation-name: Float_du;
+}
+
+#tool h2{
+	font-family: 'Yu Gothic Light', sans-serif;
+	position: static;
+	color:#FFF500;
+	font-size:14px;
+	margin: auto;
+	text-align: center;
+	animation-duration: 1s;
+	animation-name: Float_du;
 }
