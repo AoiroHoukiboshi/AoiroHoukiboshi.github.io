@@ -173,12 +173,11 @@ margin: auto;
 
 #navi h4{
 	font-family: 'Yu Gothic Light', sans-serif;
-	text-align: center;
+	text-align: left;
 	color:#F60;
 	font-size: 15px;
 	margin: 24px 0;
-	animation-duration: 3.5s;
-	animation-name: Float_du;
+	opacity: 0;
 }
 
 
