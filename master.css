@@ -1,23 +1,5 @@
 /* CSS Document */
 
-/* CSSリセット */
-html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
-pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
-strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
-caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,
-figure,footer,header,hgroup,menu,nav,section,summary,time,mark,
-audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;
-vertical-align:baseline;background:transparent;font-weight:normal;}
-body{line-height:1}article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section{display:block}
-ul{list-style:none}blockquote,q{quotes:none}blockquote:before,
-blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;
-font-size:100%;vertical-align:baseline;background:transparent}
-del{text-decoration:line-through}abbr[title],dfn[title]
-{border-bottom:1px dotted;cursor:help}
-table{border-collapse:collapse;border-spacing:0}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
-margin:1em 0;padding:0}input,select{vertical-align:middle}
 
 @keyframes Float_rl {
   0% {
@@ -52,14 +34,21 @@ margin:1em 0;padding:0}input,select{vertical-align:middle}
   }
 }
 
-body{
-	background: #000;
-	color:#FFC600;
+body{background:#000;
 	}
+#metawrapper{
+width: 100%;
+	height: 100%;
+	background: url("work/astarte/astarte1_bg.png");
+		background-size:cover; 
+}
 
 #wrapper{
 width: 80%;
+	height: 80%;
 margin: 0 auto;
+	margin-bottom: 24px;
+	background-color:rgba(0,0,0,0.5);
 }
 
 #logo{
@@ -77,18 +66,22 @@ margin: 0 auto;
 }
 
 #title h1{
-	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	font-family: ta-houdate-m500, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	text-align: center; 
-	font-size: 30px;
-	color: #CDCC32;
+	font-size: 40px;
+	color: #FFFFFF;
 	margin: 24px 0;
 }
 
 #title h2{
-	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	font-family: ten-mincho, serif;
+	font-weight: 400;
+	font-style: normal;
 	text-align: center; 
 	font-size: 24px;
-	color: #CDCC32;
+	color: #FFFFFF;
 	margin: 24px 0;
 }
 
@@ -122,16 +115,27 @@ margin: 0 auto;
 	top: 250px;
 	wide:50px;
 	margin: 24px 0;
+	margin-bottom: 24px;
+}
+
+#navi:after {
+  display: block;
+  clear: both;
+  content: "";
 }
 
 #navi h2{
-	font-family: 'Yu Gothic Light', sans-serif;
+	font-family: trajan-pro-3, serif;
 	text-align: center;
 	color:#F60;
 	font-size: 30px;
 	margin: 24px 0;
 	animation-duration: 3s;
 	animation-name: Float_du;
+}
+
+.mdl-card__title-text{
+	font-family: trajan-pro-3, serif;
 }
 
 #navi h3{
@@ -157,7 +161,7 @@ margin: 0 auto;
 
 
 a{
-	color: #00E3FF;
+	color: #F0FF00;
 	text-decoration:none;
 padding-bottom:1px;
 	}
@@ -171,10 +175,43 @@ a:hover{
 	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	font-size: 12px;
 	margin: 24px 0;
+	background-color:rgba(0,0,0,0.5);
 }
 
 #fotter h3{
 	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	text-align: center;
 	font-size: 12px;
+}
+
+
+.cd-card-square.mdl-card {
+	float:left;
+  width: 320px;
+  height: 320px;
+	margin: auto;
+	margin-top:24px;
+	margin-bottom:24px;
+	margin-left:10px;
+	
+}
+.cd-card-square > .mdl-card_a_title {
+  color: #fff;
+  background:
+    url('./work/astarte/astarte1logo.png')  50% 50% no-repeat #000000;
+	background-size:contain;
+
+}
+	
+	.cd-card-square > .mdl-card_b_title {
+  color: #fff;
+  background:
+    url('./work/stellastelekloid/ss_bg.png')  50% 50% no-repeat #000000;
+	background-size:contain;
+
+}
+	.demo-card-image_a_filename {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
 }
