@@ -36,12 +36,12 @@
 
 body{background:#000;
 	width: 100%;
-	height: 100%;
+	height: 1000px;
 	}
 #metawrapper{
 width: 100%;
 	height: 100%;
-	background: url("work/astarte/astarte1_bg.png");
+	background: url("work/astarte/astarte1_bg.png"), 60%, 50%;
 		background-size:cover; 
 }
 
@@ -50,11 +50,11 @@ width: 100%;
 }
 
 #wrapper{
-max-width: 900px;
-	height: 80%;
+max-width: 1000px;
 margin: 0 auto;
 	margin-bottom: 24px;
 	background-color:rgba(0,0,0,0.5);
+	text-align: left;
 }
 
 #logo{
@@ -103,8 +103,6 @@ margin: 0 auto;
 	color:#486D52;
 	font-size: 30px;
 	margin: 24px 0;
-	animation-duration: 2s;
-	animation-name: Float_du;
 }
 
 #title2 h3{
@@ -112,8 +110,6 @@ margin: 0 auto;
 	text-align: center; 
 	font-size:15px;
 	margin: 24px 0;
-	animation-duration: 2.5s;
-	animation-name: Float_du;
 }
 
 #navi{
@@ -124,6 +120,7 @@ margin: 0 auto;
 }
 
 #navi:after {
+	width:100%
   display: block;
   clear: both;
   content: "";
@@ -134,9 +131,8 @@ margin: 0 auto;
 	text-align: center;
 	color:#F60;
 	font-size: 30px;
-	margin: 24px 0;
-	animation-duration: 3s;
-	animation-name: Float_du;
+	margin:auto;
+	background-color:rgba(0,0,0,0.5);
 }
 
 .mdl-card__title-text{
@@ -144,23 +140,19 @@ margin: 0 auto;
 }
 
 #navi h3{
-	font-family: 'Yu Gothic Light', sans-serif;
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	text-align: center;
 	color:#F60;
 	font-size: 20px;
 	margin: 24px 0;
-	animation-duration: 3.5s;
-	animation-name: Float_du;
 }
 
 #navi h4{
-	font-family: 'Yu Gothic Light', sans-serif;
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	text-align: center;
 	color:#F60;
 	font-size: 15px;
 	margin: 24px 0;
-	animation-duration: 3.5s;
-	animation-name: Float_du;
 }
 
 
@@ -192,8 +184,8 @@ a:hover{
 
 .cd-card-square.mdl-card {
 	float:left;
-  width: 320px;
-  height: 320px;
+  width: 380px;
+  height: 380px;
 	margin: auto;
 	margin-top:24px;
 	margin-bottom:24px;
@@ -201,23 +193,54 @@ a:hover{
 	margin-right:10px;
 	
 }
+
+.cd-card-square > .mdl-card_logo_title {
+  color: #fff;
+  background:
+    url('./ahlogo.png') no-repeat #000000;
+	background-size:contain;
+
+}
+
 .cd-card-square > .mdl-card_a_title {
   color: #fff;
   background:
-    url('./work/astarte/astarte1logo.png')  50% 50% no-repeat #000000;
-	background-size:contain;
+    url('./work/astarte/astarte1_bg.png')  60% 95% no-repeat #000000;
+	background-size:cover;
 
 }
 	
 	.cd-card-square > .mdl-card_b_title {
   color: #fff;
   background:
-    url('./work/stellastelekloid/ss_bg.png')  50% 50% no-repeat #000000;
-	background-size:contain;
+    url('./work/stellastelekloid/ss_bg.png')  50% 75% no-repeat #000000;
+	background-size:cover;
 
 }
 	.demo-card-image_a_filename {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+}
+
+#tool_tip{
+	position: fixed;
+	width:50px;
+	height:60px;
+	right:0;
+	bottom:0;
+	background:#000;
+	animation-duration: 0.5s;
+	animation-name: Float_du;
+}
+
+#tool h2{
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	position: static;
+	color:#FFF500;
+	font-size:14px;
+	margin: auto;
+	text-align: center;
+	animation-duration: 1s;
+	animation-name: Float_du;
 }

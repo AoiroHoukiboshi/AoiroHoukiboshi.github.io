@@ -1,0 +1,56 @@
+/* CSS Document */
+
+body{
+	background:#7EB4FF;
+	color:#000000;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	}
+
+.mdl-menu__container.is-visible .mdl-menu{
+    color: #000; // for the header of that menu
+} 
+.mdl-menu__container.is-visible .mdl-menu:hover {
+   color: #000; // links
+}
+
+.mdl-menu__container.is-visible .mdl-menu__item{
+    color: #000; // for the header of that menu
+} 
+.mdl-menu__container.is-visible .mdl-menu__item:hover {
+   color: #000; // links
+}
+
+#wrapper{
+width: 80%;
+margin: auto;
+	background-color:rgba(0,0,0,0.7);
+}
+
+#logo{
+	position: static;
+	top: 185px;
+	margin: 24px 0;
+	width:100%;
+	text-align:center;
+}
+
+a{
+	color: #B3BEFF;
+	text-decoration:none;
+padding-bottom:1px;
+	}
+
+a:hover{
+	color:#BC59FF;
+	transition: color 0.5s;
+	}
+
+#fotter{
+	font-family: '源ノ角ゴシック JP Light', sans-serif;
+	font-size: 12px;
+	margin: 24px 0;
+		background-color:rgba(0,0,0,0.5);
+}
+
