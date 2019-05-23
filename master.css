@@ -1,5 +1,23 @@
 /* CSS Document */
 
+/* CSSリセット */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,
+strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,
+caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,
+figure,footer,header,hgroup,menu,nav,section,summary,time,mark,
+audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;
+vertical-align:baseline;background:transparent;font-weight:normal;}
+body{line-height:1}article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block}
+ul{list-style:none}blockquote,q{quotes:none}blockquote:before,
+blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;
+font-size:100%;vertical-align:baseline;background:transparent}
+del{text-decoration:line-through}abbr[title],dfn[title]
+{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;
+margin:1em 0;padding:0}input,select{vertical-align:middle}
 
 @keyframes Float_rl {
   0% {
@@ -34,15 +52,17 @@
   }
 }
 
-body{background:#000;
-	width: 100%;
-	height: 1000px;
+body{
+	background:#000;
 	}
 #metawrapper{
 width: 100%;
 	height: 100%;
 	background: url("work/astarte/astarte1_bg.png"), 60%, 50%;
-		background-size:cover; 
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	margin:auto;
 }
 
 #logo{
@@ -50,11 +70,11 @@ width: 100%;
 }
 
 #wrapper{
-max-width: 1000px;
+max-width: 1500px;
 margin: 0 auto;
 	margin-bottom: 24px;
 	background-color:rgba(0,0,0,0.5);
-	text-align: left;
+	text-align: center;
 }
 
 #logo{
@@ -112,21 +132,21 @@ margin: 0 auto;
 	margin: 24px 0;
 }
 
-#navi{
+#navia{
 	position:static;
 	top: 250px;
 	width:80%;
 	margin: auto;
 }
 
-#navi:after {
-	width:100%
-  display: block;
+#navia:after {
+	width:100%;
+	display:block;
   clear: both;
   content: "";
 }
 
-#navi h2{
+#navia h2{
 	font-family: trajan-pro-3, serif;
 	text-align: center;
 	color:#F60;
@@ -139,7 +159,7 @@ margin: 0 auto;
 	font-family: trajan-pro-3, serif;
 }
 
-#navi h3{
+#navia h3{
 	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	text-align: center;
 	color:#F60;
@@ -147,7 +167,7 @@ margin: 0 auto;
 	margin: 24px 0;
 }
 
-#navi h4{
+#navia h4{
 	font-family: '源ノ角ゴシック JP Light', sans-serif;
 	text-align: center;
 	color:#F60;
