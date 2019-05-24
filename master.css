@@ -64,6 +64,7 @@ width: 100%;
 	background-position:center;
 	background-attachment:fixed;
 	margin:auto;
+	overflow:hidden;
 }
 
 #logo{
@@ -75,8 +76,10 @@ max-width: 1500px;
 width:90%;
 margin: 0 auto;
 	margin-bottom: 24px;
+	margin-top: 24px;
 	background-color:rgba(0,0,0,0.5);
 	text-align: center;
+	
 }
 
 #logo{
